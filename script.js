@@ -13,7 +13,7 @@ function strip(bandName){
 bands.sort((a,b)=>{
 	return strip(a).localeCompare(strip(b))
 })
-const bandsList = document.getElementById('bands')
+const bandsList = document.getElementById('band')
 bands.forEach(band=>{
 	const li = document.createElement('li')
 	li.textContent = band
